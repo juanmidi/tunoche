@@ -60,7 +60,7 @@ export class InisesComponent implements OnInit {
 
   signInWithTwitter() {
     this.autService.signInWithTwitter()
-      .then(() => {
+    .then(() => {
         this.router.navigateByUrl('/inicio');
         });
   }
